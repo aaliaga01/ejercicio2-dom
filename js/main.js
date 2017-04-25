@@ -2,7 +2,7 @@
 		var clases = document.getElementsByClassName("mensaje");
 		encontrados.innerHTML= "</br>La respuesta es: son <strong>" + clases.length + "</strong> class=mensaje en el documento!";
 
-		function lala(){
+		function mostrarResultados(){
 			var mens1="Es muy poco";
 			var mens2="No está mal";
 			var mens3="son muchos!";
@@ -18,4 +18,4 @@
 			}
 			
 		}
-		lala();
+		mostrarResultados();
